@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# Add CSRF trusted origins for your Azure domain
+CSRF_TRUSTED_ORIGINS = [
+    'https://paperchase-cqecf0d5euc5g5gk.centralindia-01.azurewebsites.net'
+]
 
 # Application definition
 
